@@ -1,12 +1,22 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-10 py-4 bg-white shadow-sm">
       {/* Logo */}
-      <h1 className="text-2xl font-bold text-purple-700">Hy</h1>
+      {/* <h1 className="text-2xl font-bold text-purple-700">Hy</h1> */}
+      <Link href="/" className="flex items-center gap-2">
+        <Image
+          src="/assests/HY.svg"  
+          alt="Hy Logo"
+          width={40}
+          height={40}
+          priority
+        />
+      </Link>
 
       {/* Nav Links */}
       <div className="flex gap-8 text-gray-700 font-medium">
