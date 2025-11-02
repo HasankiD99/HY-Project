@@ -1,5 +1,6 @@
 import Double from "@/components/Double";
 import HeroSection from "@/components/HereSection";
+import ImageCard from "@/components/ImageCard";
 import Navbar from "@/components/Navbar";
 import SimpleCard from "@/components/SimpleCard";
 import Image from "next/image";
@@ -55,6 +56,8 @@ export default function Home() {
           title="Tech conference 2025"
           description="Hevelt Yard Inc. Tech Conference 2025 will bring together innovators, entrepreneurs, and industry leaders for a day of cutting-edge discussions, hands-on workshops, and networking opportunities. "
         />
+
+<ImageCard/>
 
         <Double
           number="05"
