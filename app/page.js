@@ -15,7 +15,7 @@ export default function Home() {
         <section className="flex flex-col items-start justify-center px-10 py-20 bg-[#F9F5FF]">
           <div className="w-full h-[467px] relative  ">
             <Image
-              src="/assests/banner.png"
+              src="/assets/banner.png"
               alt="banner"
               fill
               className="object-cover"
@@ -31,7 +31,7 @@ export default function Home() {
         />
 
         <SimpleCard />
-        
+
         <Double
           number="03"
           title="Meet Our Team"
@@ -41,7 +41,7 @@ export default function Home() {
         <section className="flex flex-col items-start justify-center px-10 py-20 bg-[#F9F5FF]">
           <div className="w-full h-[467px] relative  ">
             <Image
-              src="/assests/banner2.png"
+              src="/assets/banner2.png"
               alt="banner 2"
               fill
               className="object-cover"

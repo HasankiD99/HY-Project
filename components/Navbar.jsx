@@ -10,7 +10,7 @@ export default function Navbar() {
       {/* <h1 className="text-2xl font-bold text-purple-700">Hy</h1> */}
       <Link href="/" className="flex items-center gap-2">
         <Image
-          src="/assests/HY.svg"  
+          src="/assets/HY.svg"  
           alt="Hy Logo"
           width={40}
           height={40}
