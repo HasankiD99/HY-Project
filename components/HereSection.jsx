@@ -19,17 +19,6 @@ export default function HeroSection() {
       <button className="mt-6 bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700 transition">
         Contact Our Sales →
       </button>
-
-      <div>
-        <Image
-          src="/assests/HY.svg"  
-          alt="Hy Logo"
-          width={40}
-          height={40}
-          priority
-        />
-
-      </div>
     </section>
   );
 }
