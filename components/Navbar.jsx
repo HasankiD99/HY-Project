@@ -17,14 +17,7 @@ export default function Navbar() {
           priority
         />
       </Link>
-<Image
-          src="/assests/HY.svg"  
-          alt="Hy Logo"
-          width={40}
-          height={40}
-          priority
-        />
-      </Link>
+
       {/* Nav Links */}
       <div className="flex gap-8 text-gray-700 font-medium">
         <Link href="/" className="hover:text-purple-600">
