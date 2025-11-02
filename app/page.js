@@ -3,6 +3,7 @@ import HeroSection from "@/components/HereSection";
 import ImageCard from "@/components/ImageCard";
 import Navbar from "@/components/Navbar";
 import SimpleCard from "@/components/SimpleCard";
+import TripleCard from "@/components/TripleCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -65,6 +66,8 @@ export default function Home() {
           description="We're the best. Trust us on that."
         />
       </main>
+
+      <TripleCard />
     </div>
   );
 }
